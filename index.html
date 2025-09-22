@@ -3,41 +3,53 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mi sitio básico</title>
+  <title>Sitio Retro</title>
+
+  <!-- Fuente retro estilo Nintendo -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- Iconos gamer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <h1 class="logo">Mi Sitio</h1>
+    <h1 class="logo">🎮 Sitio Retro</h1>
     <nav>
       <ul class="nav-list">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+        <li><a href="#about"><i class="fa-solid fa-star"></i> Sobre</a></li>
+        <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+    <!-- Sección Hero -->
     <section id="inicio" class="hero">
-      <h2>Bienvenido a mi página</h2>
-      <p>Esta es una página de ejemplo creada con HTML y CSS.</p>
+      <h2>¡Bienvenido a mi mundo!</h2>
+      <p>Explora mi página estilo retro inspirada en Nintendo 🎨</p>
       <a class="cta" href="#about">Conoce más</a>
     </section>
 
+    <!-- Sección Sobre -->
     <section id="about" class="container">
-      <h3>Sobre este sitio</h3>
-      <p>Pequeña descripción o portfolio.</p>
+      <h3>⭐ Sobre este sitio</h3>
+      <p>Este es un pequeño proyecto diseñado con estética arcade retro.  
+         Aquí podría ir un portafolio, tus juegos favoritos o cualquier contenido que quieras mostrar.</p>
     </section>
 
+    <!-- Sección Contacto -->
     <section id="contacto" class="container">
-      <h3>Contacto</h3>
-      <p>Correo: <a href="mailto:tu@correo.com">tu@correo.com</a></p>
+      <h3>📩 Contacto</h3>
+      <p>Si quieres escribirme: <a href="mailto:tu@correo.com">nataly.beltran@cun.edu.co</a></p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> — Mi Sitio</p>
+    <p>© <span id="year"></span> — Sitio Retro</p>
   </footer>
 
   <script>
